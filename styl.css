@@ -1,0 +1,329 @@
+/* CSS Document */
+body {
+  background-image: url ('barva.png');
+  background-color: white;
+}
+a:link {
+  color: black;
+  text-decoration: none;
+  backround-color 
+}
+a:visited {
+  color: black;
+}
+table {
+ position: -webkit-sticky; 
+  position: sticky;
+  top: 0;
+  width: 100%;
+  border: 1px solid white;
+  border-collapse: collapse;
+  z-index: 2;
+}
+th, td {
+  background-color: #96D4D4;
+  font-size: 170%;
+  font-family: Garamond, serif;
+   z-index: 2; 
+}
+h1 {
+  font-size: 500%;
+  text-align: center;
+  font-weight: bold;
+  font-family: Times New Roman, sans-serif;
+}
+h2 {
+  font-size: 300%;
+  text-align: center;
+  font-weight: bold;
+  font-family: Times New Roman, sans-serif;
+}
+h3 {
+  font-size: 120%;
+  text-align: left;
+  font-weight: bold;
+  font-family: Times New Roman, sans-serif;
+  margin-left: 80px;
+}
+p {
+  color: DarkSlateGrey; 
+  font-size: 150%; 
+  text-align: center;
+  font-style: italic;
+}
+p.a {
+  color: DarkSlateGrey; 
+  font-size: 250%; 
+  float: left;
+  padding: 300px;
+}
+p.prsteny {
+  color: DarkSlateGrey; 
+  font-size: 150%; 
+  text-align: center;
+  font-style: italic;
+  padding: 100px
+}
+p.napis {
+  color: DarkSlateGrey; 
+  font-size: 200%; 
+  text-align: center;
+  font-style: italic;
+}
+div.b {
+  color: DarkSlateGrey; 
+  font-size: 100%; 
+  width: 200px;
+  height: 200px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-right: 150px;
+  margin-left: 80px;
+}
+img.prvni {
+   display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  }
+img.druha {
+  float: right;
+  width: 50%;
+}
+img.treti {
+  padding-right: 60px;
+  padding-left: 60px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+img.vystava {
+  padding-right: 82px;
+  padding-left: 82px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+img.grafika {
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+img.mapa {
+  float: right;
+  width: 28%;
+   padding-right: 300px;
+}
+img.prsteny {
+  padding-right: 130px;
+  padding-left: 130px;
+  padding-bottom: 100px;
+}
+
+  table.typ1{
+  width: 40%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid white;
+  border-collapse: collapse;
+  background-color: white;
+}
+th.typ1, td.typ1 {
+  background-color: white;
+}
+  table.typ2{
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid white;
+  border-collapse: collapse;
+  background-color: #DCDCDC;
+}
+th.typ2, td.typ2 {
+  background-color: #DCDCDC;
+  height: 100px;
+  padding-right: 200px;
+  padding-left: 200px;
+  font-size: 200%;
+  font-family: Garamond, serif;
+
+}
+th.typ3, td.typ3 {
+  background-color: #DCDCDC;
+  height: 20px;
+  padding-right: 200px;
+  padding-left: 200px;
+  font-size: 100%;
+  font-family: Garamond, serif;
+}
+th.typ4, td.typ4 {
+  background-color: #DCDCDC;
+  height: 20px;
+  font-family: Garamond, serif;
+}
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  color: white;
+  
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-instagram {
+  background: #FF69B4;
+  color: white;
+}
+div.typ1 {
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+  height: 100px;
+  display: block;
+  animation-name: example;
+  animation-duration: 20s; 
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes example {
+  from {color: #96D4D4;}
+  to {color: DarkSlateGrey;}
+
+  
+}
+div.b {
+  color: DarkSlateGrey; 
+  font-size: 100%; 
+  text-align: left;
+  width: 500px;
+  height: 200px;
+  padding: 50px;
+}
+div.prsteny {
+  color: DarkSlateGrey; 
+  font-size: 110%; 
+  text-align: left;
+  width: 500px;
+  height: 200px;
+  padding-bottom: 100px;
+  padding-left:  130px
+}
+div.golem {
+  width: 320px;
+  height: 50px;
+  padding: 10px;
+  border: 5px solid gray;
+  margin: 50px;
+}
+p.vypln {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-right: 150px;
+  padding-left: 80px;
+  background-color: white;
+}
+p.vypln2 {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-right: 150px;
+  padding-left: 80px;
+  background-color:  #F0F8FF;
+} 
+img.sesta {
+  vertical-align: middle;
+    cursor: pointer;
+  transition: 0.3s;
+}
+.img__description {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(29, 106, 154, 0.72);
+  color: #fff;
+  visibility: hidden;
+  opacity: 0; 
+  } 
+  .img.sesta:hover .img__description {
+  visibility: visible;
+  opacity: 1;
+}
+
+ .slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  padding-top: 100px;
+  
+}
+.prev, .next {
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.prev:hover, .next:hover {
+  background-color: pink;
+}
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: PaleVioletRed;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active, .dot:hover {
+  background-color: LightPink;
+}
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+} 
+
+

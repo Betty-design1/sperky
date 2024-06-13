@@ -1,0 +1,151 @@
+﻿<!DOCTYPE html>
+<html lang='cs'>
+  <head>
+    <title> Náhrdelníky</title>
+     <link
+            rel="icon"
+            href= "https://img.icons8.com/?size=100&id=52019&format=png&color=000000"
+            type="image/x-icon"
+        >
+    <link rel="stylesheet" href="styl.css">
+    <link href='/favicon.png' rel='shortcut icon' type='image/png'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+     <h1><a href="Projekthlavnistrana.html" target="_blank" title="Menu">Náhrdelníky</a></h1>
+   <table>
+    <tr style="height:60px">
+    <th> <a href="index.html" target="_blank" title="menu">Menu</a>
+    <th> <a href="prsteny.html" target="_blank" title="Prsteny">Prsteny</a> </th>
+    <th><a href="nahrdelniky.html" target="_blank" title="Nahrdelniky">Náhrdelníky</a> </th>
+    <th> <a href="vystava.html" target="_blank" title="Vystava">Výstavy</a>  </th>
+    <th> <a href="kontakt.html" target="_blank" title="Kontakt">Kontakt</a> </th>
+   </tr>
+   </table>
+   <div class="typ1"> <h2>Náhrdelníky </h2></div>
+   <div class="slideshow-container">
+ <div class="mySlides fade">
+  <div class="numbertext">1 / 4</div>
+  <a target="blank" href="img/nahrdelnikvelky3.png">
+  <img src="img/nahrdelnikvelky3.png" alt="nahrdelnikvelky3.png, 783kB" title="TO CHCI!" class="sesta" height="602" width="1000">
+  </a>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">2 / 4</div>
+  <a target="blank" href="img/model.png">
+  <img src="img/model.png" alt="model.png, 786kB" title="TO CHCI!" class="sesta" height="601" width="1000">
+  </a>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 4</div>
+  <img src="img/_MG_9224.JPG" alt="_MG_9224.JPG, 147kB" title="TO CHCI!" class="sesta" height="600" width="1000">
+  
+  
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">4 / 4</div>
+  <img src="img/modeln2.png" alt="modeln2.png, 1,1MB" title="TO CHCI!" class="sesta" height="600" width="1000">
+  
+  
+</div>
+
+
+<a class="prev" onclick="plusSlides(-1)">❮</a>
+<a class="next" onclick="plusSlides(1)">❯</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>  
+</div>
+<script>
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+<p class="prsteny">
+Na šíji spočívá náhrdelník zlatý,
+jemně se třpytí, v slunci se ztrácí.
+Každý jeho článek, každý jeho třpyt,
+skrývá příběh dávný, co nejde zapomenout.
+
+Perly a diamanty, drahokamy vzácné,
+jsou jako hvězdy v noci, tak krásné a jasné.
+Dotek jeho chladu, na kůži jemný,
+připomíná lásku, co zůstává věrný.
+
+Náhrdelník lesklý, šperk plný kouzel,
+nosí ho dáma, co má srdce z ocele.
+Spojuje minulost s budoucností,
+v každém z jeho kamenů je kapka věčnosti.- CHATGPT
+</p>
+<h3>Momentálně VYPRODÁNO</h3>
+<table class="typ2">
+   <tr class="typ2">
+   <th class="typ2">Obchodní podmínky</th>
+   <th class="typ2">Informace</th>
+   <th class="typ2">Kontakt</th>
+   </tr>
+   <tr>
+   <th class="typ3"> <a href="https://bettyre18.github.io/Andy/Andy.html"> Podmínky ochrany osobních údajů</a></th>
+   <th class="typ3"><a href="https://bettyre18.github.io/Andy/Andy.html"> Copyright </a></th> 
+   <th class="typ3"> <a href="https://bettyre18.github.io/Andy/Andy.html"> &#128386; </a></th>
+   </tr>
+   <tr class="typ3">
+   <th class="typ3"> <a href="https://bettyre18.github.io/Andy/Andy.html"> Reklamační protokol </a></th>
+   <th class="typ3"> <a href="https://bettyre18.github.io/Andy/Andy.html"> Novinky </a> </th> 
+   <th class="typ3"><a href="https://bettyre18.github.io/Andy/Andy.html">	&#9742;</a>	</th>
+   </tr>
+   <tr class="typ3">
+   <th class="typ3"> <a href="https://bettyre18.github.io/Andy/Andy.html"> Dodací podmínky </a></th>
+   <th class="typ3"> <a href="https://bettyre18.github.io/Andy/Andy.html"> O nás</a> </th> 
+   <th class="typ3">	</th>
+   </tr> 
+   <tr class="typ3">
+   <th class="typ3"> <a href="https://bettyre18.github.io/Andy/Andy.html"> Často kladené dotazy</a> </th>
+   <th class="typ3">  </th> 
+   <th class="typ3">	</th>
+   </tr>
+   <tr class="typ4">
+   <th class="typ4"> </th>
+   <th class="typ4"> </th>
+   <th class="typ4"> <a href="https://x.com/?lang=cs" class="fa fa-twitter"></a>	<a href="https://www.facebook.com/?locale=cs_CZ" class="fa fa-facebook"></a> <a href="https://www.instagram.com/" class="fa fa-instagram"></a></th>
+   </tr>
+   <tr class="typ3">
+   <th class="typ3"> </th>
+   <th class="typ3">  </th> 
+   <th class="typ3">	</th>
+   </tr>
+   </table>
+   
+  </body>
+</html>
